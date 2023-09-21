@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donuts-Art</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="./img/Icono.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap"
+    rel="stylesheet"
+  />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <style type="text/css" media="screen, print">
+        @font-face {
+            font-family: "Bauhaus 93";
+            src: url("font/BAUHS93.ttf");
+          }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Nunito:wght@200&display=swap');
+    </style>
+</head>
+<body id="body" >
+    <div class="page">
+        <a name="main" id="main"></a>
+        <header id="header">
+            <a href="#main">
+                <div class="header__logo">
+                        <div class="header__logo__container">
+                            <img  class="header__logo--img" src="img/Icono.png" id="logo">
+                            <img  class="header__logo--imgGIF" src="img/icon-home-gif.gif" id="logoGif">
+                        </div>
+                        <h1 class="header__logo--text">Celeste <br>Donuts Art</h1>
+                
+                </div>        
+            </a>
+            <img class="menuResponsive--button" id="menuResponsive" src="img/menu.png">
+            <nav>               
+                <a href="#about" class="link__color">About me</a>
+                <a href="#work" class="link__color">My Work</a>
+                <a href="#contact" class="link__color">Contact</a>
+            </nav>
+            <div class="menu__responisve" id="menuResponsiveShow">
+                <a href="#main" class="link__color">Home</a>
+                <a href="#about" class="link__color">About me</a>
+                <a href="#work" class="link__color">My Work</a>
+                <a href="#contact" class="link__color">Contact</a>  
+            </div>
+            <div class="social">
+                <a href="https://www.behance.net/rociocelestedavalos" target="_blank">
+                    <img  src="img/Img-Behance.png">
+                </a> 
+                <a href="https://www.instagram.com/celeste_donuts_art/" target="_blank">
+                    <img  src="img/Img-Instagram.png">
+                </a> 
+                <a href=" https://www.linkedin.com/in/celeste-davalos-a0853117b/" target="_blank">
+                    <img  src="img/Img-LinkedIn.png">
+                </a> 
+                <a href="https://twitter.com/CelesteDonutArt" target="_blank">
+                    <img src="img/Img-Twitter.png">
+                </a> 
+            </div>
+        </header>
+    
+            <section class="main link_color" id="section_main">
+                <div class="container__text">
+                    <div class="container__text--center">
+                        <h2>Hello I’m <br> Celeste</h2>
+                        <h3>Illustrator, Graphic Designer <br>and UX/UI Designer</h3>
+                        <button><p><a href="#about" class="link__color">Know me</a></p></button>
+                    </div>          
+                </div>
+                <div class="container__img">
+                   <!-- <img class="main--img" src="img/home-ilustracion-fondo(pequeño).png">-->
+                   <img class="main--img" src="img/home-ilustracion-fondo.gif">
+                </div>
+                
+            </section>
+        <a name="about" id="about"></a>
+            <section class="about" id="About me">
+                <div>
+                    <div class="about__content">
+                        <div class="about__content--text">
+                            <h2>About me</h2>                          
+                            <p>My name is Celeste Davalos and I am a designer and illustrator with experience in backgrounds, illustrations, editorial design, audiovisual content and technological products. I consider myself energetic, observative and analytical based on the aesthetics and functionality of digital products.  </p>                           
+                        </div>    
+                    <img src="img/mi-foto.jpg">
+                        
+                    </div>
+                    <div class="containers">
+                        <div class="containerSkills container--pink">
+                            <img src="img/Graphic Design.png">
+                            <h3>Graphic Design</h3>
+                            <div class="about__content__text--description">
+                                <p>I focus on designing effective brand communication, to give users what they are looking for.</p>
+                            </div>     
+                        </div>
+                        <div class="containerSkills container--yellow">
+                            <img src="img/Illustration.png">
+                            <h3>Illustrator</h3>
+                            <p> I have experience with various types of illustration styles, from the serious to the more animated.</p>
+                        </div>    
+                        <div class="containerSkills container--blue">
+                            <img src="img/UX Design.png">
+                            <h3>UX/UI</h3>
+                            <p>I focus on creating designs that empathize with users to provide useful experiences.</p>
+                        </div> 
+                    </div>
+                </div>
+                <div>
+
+                </div>
+    
+            </section>
+        <a name="work" id="work"></a>
+            <section  class="work" id="My Work">
+                <div class="work__header" id="workHeader">
+                    <div>
+                        <h2>My work</h2>
+                        <p>know more about what i do</p>
+                    </div>
+                    <div class="b--grid">
+                        <button id="b_all" class="b_categoria">Featured</button>
+                        <button id="b_illus" class="b_categoria">Illustrations</button>
+                        <button id="b_gd" class="b_categoria">Graphic Desing</button>
+                        <button id="b_ux" class="b_categoria">Ux/Ui Desing</button>
+                    </div>
+                </div>
+                <div id="projects" class="work__projects">
+
+                </div>
+                        
+                        <!-- The Modal -->
+                     <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content " id="contenio__modal">
+                            <span class="close"><img src = "img/BUTTONS.svg"/></span>
+                            <div id="project__modal"> 
+                            
+                            </div>
+                        </div>
+                     </div>   
+            
+            </section>
+        <a name="contact" id="contact"></a>
+            <section class="comissions" id="Contact">
+                <div class="com__open ">  
+
+                            <h2 >Comissions are open!</h2>
+                            <p>Do you like any character or something in particular? Let's do something better for you. </p>
+                            <button><a href="comissions.html">Contact me!</a>
+                            </button>         
+                </div>
+                <div class="com__form">
+                    <div class="com__form--contact">
+                        <h2>Contact</h2>
+                        <p>Send me a message and I'll get back to you soon :) </p>
+                        <div class="com__form--contact--mail">
+                            <img  src="img/mail.png">
+                            <h3>Celeste.Donuts.Art@gmail.com</h3>
+                        </div>             
+                    </div>
+                   
+                        <img class="img__footer" src="img/footer-animate.gif">
+             
+                    <div>   
+                        <form action="mailto:Celeste.Donuts.Art@gmail.com">          
+                            <div class="form__items">
+                                    <h3>Contact me</h3>
+                                    <INPUT class ="form--border "type="text" id="nombre" placeholder="Name:"><BR>                 
+                                    <INPUT  class ="form--border " type="text" id="email" placeholder="E-Mail:"><BR>               
+                                    <INPUT  class ="form--border " type="text" id="message" placeholder="Message:" class="input--mes"><BR>
+                            <INPUT type="submit" value="Send" class="form--send"> 
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        <footer>
+            <h3>Celeste Davalos © 2022 </h3>
+            <div class="social__footer">
+                <a href="https://www.behance.net/rociocelestedavalos" target="_blank">
+                    <img  src="img/Img-Behance-white.png">
+                </a> 
+                <a href="https://www.instagram.com/celeste_donuts_art/" target="_blank">
+                    <img  src="img/Img-Instagram-white.png">
+                </a> 
+                <a href=" https://www.linkedin.com/in/celeste-davalos-a0853117b/">
+                    <img  src="img/Img-LinkedIn-white.png" target="_blank">
+                </a> 
+                <a href="https://twitter.com/CelesteDonutArt" target="_blank">
+                    <img src="img/Img-Twitter-white.png">
+                </a> 
+            </div>
+        </footer>
+    </div>
+<div id="loading">
+ 
+        <img src="img/preloader-animate.gif">
+</div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script src="main.js"></script>
+</script>
+</body>
+
+</html>
